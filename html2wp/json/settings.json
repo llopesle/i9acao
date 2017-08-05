@@ -1,0 +1,90 @@
+{
+    "widgets": [],
+    "menus": {
+        "locations": [],
+        "links": []
+    },
+    "pages": [
+        {
+            "title": "Grove - Home",
+            "slug": "front-page",
+            "template": "front-page.php",
+            "file_name": "index.html"
+        },
+        {
+            "title": "Grove - About Us",
+            "slug": "about-us",
+            "template": "about-us.php",
+            "file_name": "about-us.html"
+        },
+        {
+            "title": "Grove - Blog",
+            "slug": "blog",
+            "template": "blog.php",
+            "file_name": "blog.html"
+        },
+        {
+            "title": "Grove - Contact",
+            "slug": "contact",
+            "template": "contact.php",
+            "file_name": "contact.html"
+        },
+        {
+            "title": "Grove - Features",
+            "slug": "features",
+            "template": "features.php",
+            "file_name": "features.html"
+        }
+    ],
+    "forms": {
+        "1742990414": {
+            "gfid": 1742990414,
+            "gfname": "Grove - Contact Page - Form",
+            "data": [
+                {
+                    "tag_name": "input",
+                    "name": "name",
+                    "placeholder": "name",
+                    "required": 0,
+                    "id": "name",
+                    "class": "form-control input-lg",
+                    "type": "text"
+                },
+                {
+                    "tag_name": "input",
+                    "name": "email",
+                    "placeholder": "email",
+                    "required": 0,
+                    "id": "email",
+                    "class": "form-control input-lg",
+                    "type": "email"
+                },
+                {
+                    "tag_name": "textarea",
+                    "name": "message",
+                    "placeholder": "message",
+                    "required": 0,
+                    "id": "message",
+                    "class": "form-control",
+                    "cols": "",
+                    "rows": "15"
+                }
+            ],
+            "class": "clearfix",
+            "id": "",
+            "upload": false
+        }
+    },
+    "forms_map": {
+        "front-page": [],
+        "404": [],
+        "about-us": [],
+        "blog": [],
+        "contact": [
+            1742990414
+        ],
+        "features": []
+    },
+    "posts_per_page": 0,
+    "taxonomies": []
+}
